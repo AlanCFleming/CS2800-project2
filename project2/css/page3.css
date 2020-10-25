@@ -1,0 +1,15 @@
+main h3 {
+	text-align: center;
+}
+
+.cycle-slideshow {
+	background-color: lightgrey;
+	width: 48%;
+	margin: auto;
+}
+
+#adv-custom-caption {
+	text-align: center;
+	font-weight: bold;
+	background-color: lightgrey;
+}
