@@ -34,7 +34,15 @@ nav a, nav a:visited {
 	color: darkblue;
 }
 
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+
 footer {
+	clear: both;
+	margin-left: 5%;
+	margin-right: 5%;
 	background-color: lightgreen;
 	text-align: center;
 }
