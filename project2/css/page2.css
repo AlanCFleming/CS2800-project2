@@ -1,0 +1,41 @@
+main {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+video {
+	width: 500px;
+}
+
+main ul {
+	padding: 0;
+	list-style: none;
+}
+
+ul li:nth-of-type(2) img:hover{
+	transition: 3s;
+	transform: rotate(180deg);
+}
+
+ul li:nth-of-type(3) img:hover {
+	transition: 3s;
+	transform: scale(0.5,0.5);
+}
+
+ul li:nth-of-type(5) img:nth-of-type(2) {
+	filter: grayscale(100%);
+}
+
+ul li:nth-of-type(6) img:nth-of-type(2) {
+	filter: hue-rotate(180deg);
+}
+
+p {
+	background-image: url("../media/page2/rollover1.png");
+	height: 467px;
+	width: 700px;
+}
+
+p:hover {
+	background-image: url("../media/page2/rollover2.png");
+}
