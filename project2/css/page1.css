@@ -1,0 +1,11 @@
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+figure {
+	flex-basis: 400px;
+	background-color: lightgrey;
+	text-align: center;
+}
