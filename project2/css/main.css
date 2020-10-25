@@ -1,3 +1,40 @@
 body {
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
+	margin-left: 5%;
+	margin-right:	5%;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	background-color: lightgreen;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a, nav a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+#current {
+	color: darkblue;
+}
+
+footer {
+	background-color: lightgreen;
+	text-align: center;
 }
